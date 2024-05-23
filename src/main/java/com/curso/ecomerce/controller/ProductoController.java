@@ -1,6 +1,5 @@
 package com.curso.ecomerce.controller;
 
-import java.lang.StackWalker.Option;
 import java.util.Optional;
 
 import org.slf4j.*;
