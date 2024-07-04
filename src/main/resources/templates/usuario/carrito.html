@@ -72,11 +72,11 @@
 					<div>
 						<h2>SUBTOTAL</h2>
 						
-						<ul>
-							<li>
+						<ul class="list-group">
+							<li class="list-group-item">
 								<h5 th:text="${orden.total}">Orden</h5>
 							</li>
-							<a>Ver orden</a>
+							<a th:href="@{/order}" class="btn btn-dark">Ver orden</a>
 						</ul>
 					</div>
 				</div>
